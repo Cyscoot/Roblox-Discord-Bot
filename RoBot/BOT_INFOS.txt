@@ -1,0 +1,18 @@
+token = ""
+prefix = ">"
+
+How does the bots works ?
+    Using discord.py, and the Roblox Users Api v1, the bot will generate 3 words, that the user will have to put
+    in his bio, then the bot will check if the generated words are in the user's bio. If yes, then it will create a repertory
+    in the json file that contains the roblox user's id and the user's discord id.
+
+    The userinfos command is checking in the json file if there is the target's user id is in there. If yes then
+    we'll show the user's infos.
+
+    The devex command divide by 10000 and then multiply the value by 35. And if the argument is missing, it's just showing 100 000 R$ = 350 USD.
+
+Commands :
+    devex, #shows the value of USD once robux exchange [1 optional argument (robux amout)]
+    verify, #starts the verifaction [0 argument]
+    checkbio, #once the verify command done, this command will check if the user's bio is the given one. [1 required argument (user's id)]
+    userinfos #allows users to read informations of a logged user. [1 required argument (target user)]
